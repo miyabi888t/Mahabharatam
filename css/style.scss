@@ -89,10 +89,13 @@ body {
         font-weight: bold;
     }
 
-    //header用
+    //inner幅
     .inner {
-        width: 80%;
-        margin: auto;
+        width:  100%;
+        margin: 0 auto;
+        @include mq('sm') {
+            width: 80%;
+        }
         @include mq('md') {
             max-width: 810px;
             width: 61%;
@@ -170,7 +173,8 @@ body {
   header {
     background-image: url("../img/bg.png");
     line-height: 60px;
-        height: 60px;
+    height: 60px;
+    width: 100%;
         @include mq('lg') {
             height: 90px;
         }
@@ -179,7 +183,8 @@ body {
         .header-list {
             display: flex;
             justify-content: space-around;
-            padding-top: 0px;  
+            padding-top: 0px; 
+            max-width: 100%;
             @include mq('lg') {
                 padding-top: 24px;
             }        
@@ -197,10 +202,11 @@ body {
             .menu-item {
                 a {
                     position: relative;
-                    font-size: 10px;
-                    padding: 0 5px;
+                    padding: 0 2px;
+                    font-size: 12px;
                     @include mq('sm') {
-                        font-size: 14px;
+                        font-size: 20px;
+                        padding: 0 5px;
                     }
                
                         @include mq('lg') {

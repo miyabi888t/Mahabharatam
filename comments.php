@@ -12,9 +12,9 @@
 
 <section class="comments-page-wrapper">
     <div class="container">
-    <div class="breadcrumb">
-      <?php bcn_display(); ?>
-    </div>
+      <div class="breadcrumb">
+        <?php bcn_display(); ?>
+      </div>
         <h2 class="page-title comments-page-title">COMMENTS</h2>
           <p class="comments-page-sub-title">舞台関係者のみならず各界著名人からコメントが届いています！</p>
             <div class="comments-contents">

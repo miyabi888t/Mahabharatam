@@ -65,8 +65,6 @@
    </div>
  </div>
 
- 
-
  <div class="cast-bottom-contents">
     <div class="cast-container">
         <?php if(get_field('casts_bottom')): ?>

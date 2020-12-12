@@ -17,7 +17,6 @@
 </head>
 <body> 
   <header>
-    <div class="header-contents">
 		<div class="inner">
 				<?php
 				wp_nav_menu(
@@ -30,5 +29,7 @@
 					);
 					 ?>
         </div>
-    </div>
   </header>
+
+
+

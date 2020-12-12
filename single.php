@@ -9,7 +9,7 @@
 <section class="news-single-wrapper">
   <div class="news-single-container">
     <div class="breadcrumb">
-            <?php bcn_display(); ?>
+          <?php bcn_display(); ?>
     </div>
         <h2 class="page-title news-single-top-title">NEWS</h2>
              <?php
@@ -53,19 +53,19 @@
            </div>
           </div>
            <div class="next-item">
-            <div class="next">
-              <?php next_post_link('%link', 
-                '<div class="page-nav-item">
-                <div class="page-nav-text">
-                <span>%date</span><br>
-                <p>%title</p></div>
-                <div class="page-nav-sp">
-                <p>次の記事へ</p>
-                </div>
-                <div class="page-btn"><p>></p></div>
-                </div>
-                '); ?>
-           </div>
+              <div class="next">
+                <?php next_post_link('%link', 
+                  '<div class="page-nav-item">
+                  <div class="page-nav-text">
+                  <span>%date</span><br>
+                  <p>%title</p></div>
+                  <div class="page-nav-sp">
+                  <p>次の記事へ</p>
+                  </div>
+                  <div class="page-btn"><p>></p></div>
+                  </div>
+                  '); ?>
+            </div>
           </div>  
        </div>
     </div>

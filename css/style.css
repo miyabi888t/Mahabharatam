@@ -75,8 +75,14 @@ strong {
 }
 
 .inner {
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+  .inner {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 987px) {
@@ -159,6 +165,7 @@ header {
   background-image: url("../img/bg.png");
   line-height: 60px;
   height: 60px;
+  width: 100%;
 }
 
 @media screen and (min-width: 1140px) {
@@ -171,6 +178,7 @@ header .header-nav .header-list {
   display: flex;
   justify-content: space-around;
   padding-top: 0px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1140px) {
@@ -192,13 +200,14 @@ header .header-nav .header-list li a {
 
 header .header-nav .header-list .menu-item a {
   position: relative;
-  font-size: 10px;
-  padding: 0 5px;
+  padding: 0 2px;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 576px) {
   header .header-nav .header-list .menu-item a {
-    font-size: 14px;
+    font-size: 20px;
+    padding: 0 5px;
   }
 }
 
