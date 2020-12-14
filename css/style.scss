@@ -211,7 +211,6 @@ body {
                         font-size: 20px;
                         padding: 0 5px;
                     }
-               
                         @include mq('lg') {
                             font-size: 20px;
                         }
@@ -334,14 +333,6 @@ body {
         position: relative;
         color: #fff;
         padding: 48px 0 20px 0;
-        @include mq('sm') {
-
-        }
-        @include mq('md') {
-           
-
-        }
-
         @include mq('lg') {
             height: 520px;
             background-position: 130% 15%;
@@ -428,14 +419,12 @@ body {
 
  //index.html イントロダクション
     .introduction-wrapper {
-
         padding-top: 45px;
         padding-bottom: 47px;
         background-attachment: fixed;
         @include mq('md') {
             padding-top: 60px;
             padding-bottom: 52px;
-
         }
         .introduction-contents {
             padding-top: 20px;
@@ -505,21 +494,16 @@ body {
             @include mq('md') {
                 width: 70%;
             }
-
         }
-   
         .news-section-title {
             position: relative;
             @include mq('md') {
                 padding-bottom: 20px;
-            }
-   
+            }   
         }
         .news-contents {
-   
             width: 97%;  
             margin: 0 auto;
-            
             @include mq('md') {
                 width: 100%;
                 position: relative;
@@ -838,7 +822,6 @@ body {
             padding-top: 50px;
             padding-bottom: 42px;
         }
-       
         .comments-title {
             padding-bottom: 18px;
         }
@@ -890,8 +873,6 @@ body {
             }
          .comments-contents-title {
              font-size: 20px;
-           
-            
          }
          .comments-name {
              font-size: 20px;
@@ -899,7 +880,6 @@ body {
           
              @include mq('md') {
                  font-size: 26px;
-            
              }
          }
          .comments-text {
@@ -944,8 +924,6 @@ body {
             @include mq('md') {
                 background: linear-gradient( rgba(0, 0, 0, 0)16%, beige 16%);
                 padding: 16px 0px 38px 0px;
-
-
             }
             .cast-items {
                 @include mq('md') {
@@ -973,7 +951,6 @@ body {
                             @include mq('md') {
                                 width: 87%;
                                 padding-bottom: 27px;
-                                
                             }
                         }
                         .cast-info-content {   
@@ -1050,7 +1027,6 @@ body {
         @include mq('md') {
             padding-top: 10px;
         }
-        
         .schedule-contents {
             padding-top: 20px;
             padding-bottom: 40px;
@@ -1079,8 +1055,6 @@ body {
                     .schedule-info-contents {
                         padding: 20px 0;
                         border-bottom: 1px solid $main-text;
-                        
-
                         @include mq('sm') {
                             display: flex;
                             flex-wrap: wrap;
@@ -1121,24 +1095,13 @@ body {
                                 bottom: 4px;
                                 left: 0;
                             }
-
                             }
-                            
-                        
-                        }
-    
+                        }    
                     }
-
-                }
-                
-                
-
-                
-                
+                }                
             }
         }
-        .schedule-btn {
-       
+        .schedule-btn {       
             width: 100%;
             @include mq('md') {
                 display: flex;
@@ -1823,7 +1786,6 @@ body {
                display: flex;
                justify-content: left;
                flex-wrap: wrap;
-               
            }
             .cast-sub-item {
                 padding-bottom: 40px;
@@ -1862,7 +1824,6 @@ body {
                         padding-bottom: 0;
                         padding-top: 2px;
                     }
-               
                 }
                 .cast-sub-text {
           
@@ -1917,7 +1878,6 @@ body {
             display: flex;
             flex-wrap: wrap;
             justify-content: left;
-            
             .cast-bottom-item {
                 padding: 15px 0 27px 0;
                 width: 45%;
@@ -2006,8 +1966,6 @@ body {
                         }
                         &:nth-child(4) {
                             padding-bottom: 20px;
-
-
                         }
                     }
                    .form-box {
@@ -2069,7 +2027,6 @@ body {
             .breadcrumb {
                 padding-bottom: 20px;
             }
-           
             .confirm-title {
                 padding-bottom: 10px;
             }

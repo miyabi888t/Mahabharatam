@@ -160,10 +160,7 @@
         </div>
         <div class="cast-bg">
         </div>
-
 </section>
-
-
 
 
 <?php get_footer(); ?>
