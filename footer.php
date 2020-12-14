@@ -26,8 +26,8 @@
                 <?php wp_reset_postdata(); ?> 
         </div>
         <div class="schedule-btn">
-                <a href="http://localhost:8888/daily-trial/inquiry/" class="btn-brawn">お問い合わせはこちら</a>
-                <a href="#" class="btn-red">チケット予約サイトへ</a>
+                <a href="<?php echo home_url('/inquiry'); ?>" class="btn-brawn">お問い合わせはこちら</a>
+                <a href="<?php echo home_url('/inquiry'); ?>" class="btn-red">チケット予約サイトへ</a>
         </div> 
     </div>
 </section>

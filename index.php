@@ -11,7 +11,7 @@
                 </p>
                 </div>
                 <div class="top-btn">
-                <a href="#" class="btn-red">チケット予約サイトへ</a>
+                <a href="<?php echo home_url('/inquiry'); ?>" class="btn-red">チケット予約サイトへ</a>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
      
         <div class="news-contents">
         <div class="news-btn-md">
-            <a href="http://localhost:8888/daily-trial/category/news/" class="btn-basic btn-red">ニュース一覧へ</a>
+            <a href="<?php echo home_url('/news'); ?>" class="btn-basic btn-red">ニュース一覧へ</a>
         </div> 
           <ul class="news-items">
     <?php
@@ -77,7 +77,7 @@
         </div>
         </div>
         <div class="news-btn-sp">
-        <a href="http://localhost:8888/daily-trial/category/news/" class="btn-basic btn-red">ニュース一覧へ</a>
+        <a href="<?php echo home_url('/news'); ?>" class="btn-basic btn-red">ニュース一覧へ</a>
     </div> 
   
 </section>
@@ -92,7 +92,7 @@
             </p>
         </div>
          <div class="btn-story">
-             <a href="#" class="btn-basic btn-red">もっと詳しく</a>
+             <a href="<?php echo home_url('/story'); ?>" class="btn-basic btn-red">もっと詳しく</a>
          </div>
     </div>
 </section>
@@ -113,7 +113,7 @@
                   まずこの聖句が浮かんだ。境界線に立つ人類。超越する意志。小池博史氏の心象が生み出したアバターが乱舞しながら深層意識に波紋を起こしてゆく。</p>
                 </div>
                 <div class="btn-comments">
-                      <a href="#" class="btn-basic btn-red">もっと見る</a>
+                      <a href="<?php echo home_url('/comments'); ?>" class="btn-basic btn-red">もっと見る</a>
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@
            <?php wp_reset_postdata(); ?>
               </div>
             <div class="cast-btn">
-                <a href="cast.php" class="btn-basic">もっと見る</a>
+                <a href="<?php echo home_url('/casts'); ?>" class="btn-basic">もっと見る</a>
             </div>
         </div>
         <div class="cast-bg">

@@ -8,7 +8,7 @@
         </div>
     </div>
      <div class="top-btn-archive-contents">
-        <a href="#" class="btn-red">チケット予約サイトへ</a>
+        <a href="<?php echo home_url('/inquiry'); ?>" class="btn-red">チケット予約サイトへ</a>
      </div>
 </section>
 
