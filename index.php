@@ -7,7 +7,8 @@
                 <div class="top-contents-schedule-explain">
                 <img src="<?php echo get_template_directory_uri()?>/img/schedule.png" alt="2020年7月4日〜7日なかのZERO大ホール" class="top-schedule">
                 <p class="top-text">
-                    小池博史ブリッジプロジェクトが2013年から2020年までの8カ年計画で臨む、インド古代叙事詩「マハーバーラタ」の全編舞台作品化計画。いよいよその集大成である<strong>完全版マハーバーラタ</strong>の公演が決定！！<br>アジア各国のアーティストらが共同で取り組み、発展を遂げる本事業はアジア、そして世界へ向けてビッグウェーブを起こす。タイと日本から世界へと発信する本作。どうぞお見逃しなく！
+                <span class="top-text-top">小池博史ブリッジプロジェクトが2013年から2020年までの8カ年計画で臨む、インド古代叙事詩「マハーバーラタ」の全編舞台作品化計画。いよいよその集大成である<strong>完全版マハーバーラタ</strong>の公演が決定！！<br></span>
+                <span>アジア各国のアーティストらが共同で取り組み、発展を遂げる本事業はアジア、そして世界へ向けてビッグウェーブを起こす。タイと日本から世界へと発信する本作。どうぞお見逃しなく！</span>
                 </p>
                 </div>
                 <div class="top-btn">
@@ -36,10 +37,9 @@
 <section class="news-wrapper">
     <div class="container news-container">
         <h2 class="section-title news-section-title">NEWS</h2>
-     
         <div class="news-contents">
         <div class="news-btn-md">
-            <a href="<?php echo home_url('/news'); ?>" class="btn-basic btn-red">ニュース一覧へ</a>
+            <a href="http://daily-trial.miyabi-travelog.com/category/news/" class="btn-basic btn-red">ニュース一覧へ</a>
         </div> 
           <ul class="news-items">
     <?php
@@ -77,7 +77,7 @@
         </div>
         </div>
         <div class="news-btn-sp">
-        <a href="<?php echo home_url('/news'); ?>" class="btn-basic btn-red">ニュース一覧へ</a>
+        <a href="http://daily-trial.miyabi-travelog.com/category/news/" class="btn-basic btn-red">ニュース一覧へ</a>
     </div> 
   
 </section>

@@ -13,9 +13,9 @@
 <section class="cast-page-wrapper">
     <div class="cast-page-bg">
       <div class="container">
-      <div class="breadcrumb">
-        <?php bcn_display(); ?>
-      </div>
+        <div class="breadcrumb">
+          <?php bcn_display(); ?>
+        </div>
         <h2 class="page-title cast-title">CAST</h2>
          <div class="cast-contents">
            <?php if(get_field('casts')): ?>
@@ -38,9 +38,10 @@
               <?php endwhile; ?>
             </ul>
            <?php endif; ?>
-        <?php wp_reset_postdata(); ?>
+           <?php wp_reset_postdata(); ?>
        </div>
     </div>
+  </div>
         
  <div class="cast-sub-contents">
     <div class="cast-container">

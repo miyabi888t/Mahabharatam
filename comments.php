@@ -23,7 +23,7 @@
               </div>
                 <div class="comments-text-contents">
                   <div class="comments-text-wrapper">
-                    <span class="comments-contents-title">京都佛立ミュージアム館長</span>
+                    <span class="comments-contents-title">京都佛立ミュージアム館長</span><br class="dp-sp">
                     <span class="comments-name">長松清潤</span>
                     <p class="comments-text">「文に非ず、其の義に非ず、唯だ一部の意のみ。」<br>
                     まずこの聖句が浮かんだ。境界線に立つ人類。超越する意志。小池博史氏の心象が生み出したアバターが乱舞しながら深層意識に波紋を起こしてゆく。</p>
